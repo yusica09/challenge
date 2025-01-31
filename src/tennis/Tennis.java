@@ -19,7 +19,7 @@ public class Tennis {
                         JPanel mainPanel = new JPanel(new CardLayout());
                         JPanel startPanel = new JPanel();
                         startPanel.setLayout(new GridLayout(3, 1));
-
+ 
                         JLabel titleLabel = new JLabel("Tennis Match", JLabel.CENTER);
                         titleLabel.setFont(new Font("Arial", Font.BOLD, 24));
 

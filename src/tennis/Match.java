@@ -3,7 +3,7 @@ package tennis;
 public class Match {
 
     int [] score;
-    int setNum;
+    int setNum; 
     boolean isLastSet;
 
     public Match(int setNum) {

@@ -19,7 +19,7 @@ public class Game {
         this.isLastSet = isLastSet;
     }
 
-    // 메서드
+    // 메서드 
     public void getPoint(){
         // n = 0 or 1
         int n = (int)(Math.random()*2);

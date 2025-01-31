@@ -27,7 +27,7 @@ public class Set {
         int s2 = score[1];
         int gap = abs(s1 - s2);
         // 게임을 6번이상 이기면서 2점이상 차이날시 세트 승리
-        if(s1 >= 6 || s2 >= 6){
+        if(s1 >= 6 || s2 >= 6 ){
             switch(gap){
                 case 1: if(isTieBreak) return true;
                         break;
